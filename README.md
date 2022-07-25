@@ -11,3 +11,12 @@ The CNN model gave an accuracy of 98.44%
 ![image](https://user-images.githubusercontent.com/73594376/180789396-f479ad63-2ff3-4ed1-8608-351e5d7fd467.png)
 
 The final output of the model is the Leaf condition and the confidence.
+
+## Technology Stack
+
+o	Tensorflow
+o	Keras
+o	Pandas
+o	Numpy
+o	Matplotlib
+o	FastAPI
