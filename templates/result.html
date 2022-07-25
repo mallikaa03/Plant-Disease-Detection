@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Plant Disease Classification</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+<body>
+
+<!-- Navbar -->
+
+
+<!-- Page content -->
+<div class="w3-content w3-black" style="max-width:2000px;margin-top:0px">
+
+ 
+
+  <!-- The disease Section -->
+  <div class="w3-container w3-content w3-center w3-padding-64 w3-black" style="max-width:800px" id="disease">
+    <h2 class="w3-wide" style="background-color: #359c5c; padding-top: 0;"> POTATO PLANT DISEASE DETECTION</h2>
+    <p class="w3-justify" style="font-family: Verdana; font-size: 35">Potato crop is prone to conditions like EarlyBlight and Late Blight and not being able to detect them leads to a poor production and hence also incurs major losses to farmers.
+      <p style="font-family: Verdana; font-size: 25">This model takes an image of the potato plant leaf as an input and detects if the plant has the above mentioned conditons or not with high confidence rate. I have used convolutional neural networks in this model.</p>
+  </div>
+<!-- The try Section -->
+
+<div class="w3-rgb(143, 222, 190)" style="background-color:rgb(143, 222, 190) ; height:500px;"  id="try">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px; height:500px; background-color: #b2f5cc;">
+      <h2 class="w3-wide w3-center" style="color: black;"><b>Result</b></h2>
+      <p class="w3-opacity w3-center" style="color: black;"><i>result of your uploaded image</i></p><br>
+      <center>{{result}}
+      <p style="color: black;">Want to try again? Click <a href="/#try">here</a></p>
+      </center>
+    </div>
+  </div>
